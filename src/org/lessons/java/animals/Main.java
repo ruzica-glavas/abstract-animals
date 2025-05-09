@@ -23,5 +23,21 @@ public class Main {
         passerotto.dormi();
         passerotto.verso();
         passerotto.mangia();
+
+        //Interfacce da stampare
+        faiVolare(aquila);
+        faiVolare(passerotto);
+        faiNuotare(delfino);
+
+       
     }
+
+     //Interfacce metodi
+        static void faiVolare(IVolante animaleVolante){
+            animaleVolante.vola();
+        }
+
+        static void faiNuotare(INuotante animaleNuotante){
+        animaleNuotante.nuota();
+        }
 }
