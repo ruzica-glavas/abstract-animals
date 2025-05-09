@@ -3,7 +3,7 @@ package org.lessons.java.animals;
 public abstract class AbstractAnimal {
 
     //Metodo comune a tutti quindi implementato
-    public void dormi (){
+    public void dormi(){
         System.out.println("Zzz");
     }
 
